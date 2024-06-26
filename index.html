@@ -4,12 +4,15 @@
     <meta charset="utf-8" />
     <link rel="icon" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-		<link rel="modulepreload" href="/_app/immutable/entry/start.BaloHC3o.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/entry.C7xInTzI.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/scheduler.BeaK0CkN.js">
-		<link rel="modulepreload" href="/_app/immutable/entry/app.lQDW5252.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/index.BIVVEUZD.js">
+
+    <link rel="modulepreload" href="_app/immutable/entry/start.BaloHC3o.js" />
+    <link rel="modulepreload" href="_app/immutable/chunks/entry.C7xInTzI.js" />
+    <link
+      rel="modulepreload"
+      href="_app/immutable/chunks/scheduler.BeaK0CkN.js"
+    />
+    <link rel="modulepreload" href="_app/immutable/entry/app.lQDW5252.js" />
+    <link rel="modulepreload" href="_app/immutable/chunks/index.BIVVEUZD.js" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -510,24 +513,23 @@
             /></a>
           </h1>
         </section>
-        
-			<script>
-				{
-					__sveltekit_1d4n4tb = {
-						base: ""
-					};
 
-					const element = document.currentScript.parentElement;
+        <script>
+          {
+            __sveltekit_1d4n4tb = {
+              base: "",
+            };
 
-					Promise.all([
-						import("/_app/immutable/entry/start.BaloHC3o.js"),
-						import("/_app/immutable/entry/app.lQDW5252.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element);
-					});
-				}
-			</script>
-		
+            const element = document.currentScript.parentElement;
+
+            Promise.all([
+              import("/_app/immutable/entry/start.BaloHC3o.js"),
+              import("/_app/immutable/entry/app.lQDW5252.js"),
+            ]).then(([kit, app]) => {
+              kit.start(app, element);
+            });
+          }
+        </script>
       </div>
     </div>
   </body>
